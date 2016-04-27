@@ -14,7 +14,7 @@ Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If yo
 
 ## Checkbox iPhone Style
 
-![](https://raw.githubusercontent.com/jaywcjlove/FED/gh-pages/img/mg1.gif)
+![](https://raw.githubusercontent.com/jaywcjlove/magic-input/gh-pages/img/mg1.gif)
 
 ```html 
 <input type="checkbox" class="mgc-switch mgc-sm" checked />
@@ -24,7 +24,7 @@ Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If yo
 
 ## Checkbox
 
-![](https://raw.githubusercontent.com/jaywcjlove/FED/gh-pages/img/mg2.gif)
+![](https://raw.githubusercontent.com/jaywcjlove/magic-input/gh-pages/img/mg2.gif)
 
 ```html 
 <input type="checkbox" class="mgc" checked/> Default
@@ -38,7 +38,7 @@ Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If yo
 
 ## Radios
 
-![](https://raw.githubusercontent.com/jaywcjlove/FED/gh-pages/img/mg3.gif)
+![](https://raw.githubusercontent.com/jaywcjlove/magic-input/gh-pages/img/mg3.gif)
 
 ```html 
 <input type="radio" name="radio3" class="mgr mgr-sm"/> Default
