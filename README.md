@@ -1,7 +1,7 @@
 
 # magic-input
 
-CSS3 Styles for Checkbox and Radio Button  inputs look prettier. [Live demo](https://jaywcjlove.github.io/magic-input)
+CSS3 Styles for Checkbox and Radio Button inputs look prettier. with only one element. [Live demo](https://jaywcjlove.github.io/magic-input)
 
 
 # Usage
@@ -53,21 +53,21 @@ Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If yo
 
 `sm` for `small` , `lg` for `large`
 
-### For Checkbox
+**For Checkbox**
 
 `mgc-sm` `mgc-lg`
 
-### For Radio Button
+**For Radio Button**
 
 `mgr-sm` `mgr-lg`
 
 
 ## Colorize Class
 
-### For Checkbox
+**For Checkbox**
 
 `mgc-primary` `mgc-info` `mgc-success` `mgc-warning` `mgc-danger`
 
-### For Radio Button
+**For Radio Button**
 
 `mgr-primary` `mgr-info` `mgr-success` `mgr-warning` `mgr-danger`
