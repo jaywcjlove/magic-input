@@ -1,7 +1,7 @@
 
 # magic-input
 
-CSS3 Styles for Checkbox and Radio Button  inputs look prettier. [Live demo](#)
+CSS3 Styles for Checkbox and Radio Button  inputs look prettier. [Live demo](https://jaywcjlove.github.io/magic-input)
 
 
 # Usage
