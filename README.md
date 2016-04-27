@@ -6,6 +6,10 @@ CSS3 Styles for Checkbox and Radio Button inputs look prettier. with only one el
 
 # Usage
 
+```bash
+$ npm install magic-input
+```
+
 Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If your use [Stylus](https://github.com/stylus/stylus) use `magic-input.styl`
 
 ```html 
