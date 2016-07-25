@@ -1,4 +1,4 @@
-input[type="checkbox"].mgc {
+.mgc {
   position: relative;
   width: 16px;
   height: 16px;
@@ -14,7 +14,7 @@ input[type="checkbox"].mgc {
   background-color: #fff;
   border: 1px solid #d7d7d7;
 }
-input[type="checkbox"].mgc:checked:after {
+.mgc:checked:after {
   content: '';
   display: block;
   height: 4px;
@@ -27,18 +27,18 @@ input[type="checkbox"].mgc:checked:after {
   top: 3px;
   left: 3px;
 }
-input[type="checkbox"].mgc:disabled {
+.mgc:disabled {
   opacity: 0.65;
 }
-input[type="checkbox"].mgc:focus {
+.mgc:focus {
   outline: none;
   box-shadow: inset 0 1px 1px rgba(255,255,255,0.075), 0 0px 2px #38a7ff;
 }
-input[type="checkbox"].mgc:checked {
+.mgc:checked {
   background-color: #fff;
   border-color: #d7d7d7;
 }
-input[type="checkbox"].mgc:checked:after {
+.mgc:checked:after {
   border-color: #414141;
 }
 .mgc-primary {
@@ -277,6 +277,9 @@ input[type="radio"].mgr:checked:before {
 .mgc-switch:checked:after {
   -webkit-transform: translateX(17px);
           transform: translateX(17px);
+}
+.mgc-switch:focus {
+  outline: 0;
 }
 .mgc-sm.mgc-switch {
   height: 20px;
