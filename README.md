@@ -12,8 +12,16 @@ $ npm install magic-input
 
 Include `dist/magic-input.css` or `dist/magic-input.min.css` in your html. If your use [Stylus](https://github.com/stylus/stylus) use `magic-input.styl`
 
+```js
+import 'magic-input/dist/magic-input.min.css';
+// or
+import 'magic-input/lib/magic-input.styl';
+```
+
+Or manually download and link magic-input in your HTML, It can also be downloaded via [UNPKG](https://unpkg.com/magic-input/dist/):
+
 ```html 
-<link rel="stylesheet" type="text/css" href="dist/magic-input.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/magic-input/dist/magic-input.min.css">
 ```
 
 ## Checkbox iPhone Style
