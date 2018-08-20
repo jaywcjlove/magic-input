@@ -1,6 +1,6 @@
 {
   "name": "magic-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CSS3 Styles for Checkbox and Radio Button  inputs look prettier.",
   "main": "index.js",
   "scripts": {
