@@ -1,6 +1,11 @@
 
 # magic-input
 
+
+[![Downloads](https://img.shields.io/npm/dm/magic-input.svg?style=flat)](https://www.npmjs.com/package/magic-input)
+[![CI](https://github.com/jaywcjlove/magic-input/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/magic-input/actions/workflows/ci.yml)
+
+
 CSS3 Styles for Checkbox and Radio Button inputs look prettier. with only one element. [Live demo](https://jaywcjlove.github.io/magic-input)
 
 
