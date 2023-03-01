@@ -9,7 +9,6 @@
   margin: -0.15px 0.6px 0 0;
   vertical-align: text-bottom;
   border-radius: 3px;
-  -webkit-transition: background-color 0.25s;
   transition: background-color 0.25s;
   background-color: #fff;
   border: 1px solid #d7d7d7;
@@ -21,8 +20,7 @@
   width: 7px;
   border: 0 solid #333;
   border-width: 0 0 2px 2px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   position: absolute;
   top: 3px;
   left: 3px;
@@ -141,7 +139,6 @@ input[type="radio"].mgr:before {
   display: block;
   height: 0px;
   width: 0px;
-  -webkit-transition: width 0.25s, height 0.25s;
   transition: width 0.25s, height 0.25s;
 }
 input[type="radio"].mgr:checked:before {
@@ -250,10 +247,7 @@ input[type="radio"].mgr:checked:before {
   top: 0;
   left: 0;
   border-radius: 15px;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 .mgc-switch:before {
   width: 39px;
@@ -271,12 +265,10 @@ input[type="radio"].mgr:checked:before {
   background-color: #04be02;
 }
 .mgc-switch:checked:before {
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 .mgc-switch:checked:after {
-  -webkit-transform: translateX(17px);
-          transform: translateX(17px);
+  transform: translateX(17px);
 }
 .mgc-switch:focus {
   outline: 0;
@@ -296,8 +288,7 @@ input[type="radio"].mgr:checked:before {
 .mgc-sm.mgc-switch:checked:after {
   top: 0px;
   left: 2px;
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
+  transform: translateX(10px);
 }
 .mgc-lg.mgc-switch {
   height: 32px;
@@ -314,6 +305,5 @@ input[type="radio"].mgr:checked:before {
 .mgc-lg.mgc-switch:checked:after {
   top: 0px;
   left: 2px;
-  -webkit-transform: translateX(18px);
-          transform: translateX(18px);
+  transform: translateX(18px);
 }
