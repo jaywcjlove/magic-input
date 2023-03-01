@@ -22,7 +22,7 @@
   "author": "kenny wang <wowohoo@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer-stylus": "^0.9.2",
+    "autoprefixer-stylus": "^0.14.0",
     "stylus": "^0.54.3"
   }
 }
