@@ -1,0 +1,24 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+      
+      - run: npm install
+      - run: npm run build
+
+      - name: 📦 magic-input publish to NPM
+        run: npm publish
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: '${{ secrets.NPM_TOKEN }}'
