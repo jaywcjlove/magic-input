@@ -22,6 +22,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           exclude_assets: '.github,img,node_modules,.npmignore,.gitignore'
+          publish_dir: ./
 
       - name: 📦 magic-input publish to NPM
         run: npm publish
