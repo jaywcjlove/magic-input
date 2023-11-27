@@ -1,7 +1,7 @@
 
 # magic-input
 
-
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![Downloads](https://img.shields.io/npm/dm/magic-input.svg?style=flat)](https://www.npmjs.com/package/magic-input)
 [![CI](https://github.com/jaywcjlove/magic-input/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/magic-input/actions/workflows/ci.yml)
 
