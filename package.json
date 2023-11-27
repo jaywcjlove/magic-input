@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "CSS3 Styles for Checkbox and Radio Button  inputs look prettier.",
   "homepage": "https://jaywcjlove.github.io/magic-input",
+  "funding": "https://jaywcjlove.github.io/#/sponsor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
