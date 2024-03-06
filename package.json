@@ -30,6 +30,6 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer-stylus": "~1.0.0",
-    "stylus": "~0.59.0"
+    "stylus": "~0.63.0"
   }
 }
